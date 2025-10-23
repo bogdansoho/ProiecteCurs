@@ -8,6 +8,7 @@ public class PrimaTema {
 //
 // System.out.println(primaLinie + aDouaLinie + aTreiaLinie);
 //
-
+  final double dataNastere = 27.1941;
+  System.out.println(dataNastere);
     }
 }
