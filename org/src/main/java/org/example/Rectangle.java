@@ -13,5 +13,8 @@ public class Rectangle {
 //            System.out.println("*");
 //        }
 
+        int width = 10;
+        int height = 5;
+
     }
 }
