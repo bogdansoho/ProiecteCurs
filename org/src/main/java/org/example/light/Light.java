@@ -31,12 +31,14 @@ public class Light {
             System.out.println("The light is now dimmed with a brightness of : " + brightness);
         }
     }
+
     public void brighten() {
         if (isOn && brightness < 100) {
             brightness = 100;
             System.out.println("The light is now brighten with a brightness of : " + brightness);
         }
     }
+
     public boolean isOn() {
         return isOn;
     }
@@ -44,6 +46,10 @@ public class Light {
     public int getBrightness() {
         return brightness;
     }
+
+
 }
+
+
 
 
